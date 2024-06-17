@@ -1,0 +1,45 @@
+{
+  "id": "b80d1c11-c9f1-4d5b-9675-efefeddf5369",
+  "name": "source",
+  "publisher": "github.com/document-capture",
+  "version": "1.24.0.0",
+  "brief": "Prevent users from accessing restricted/sensitive documents",
+  "description": "This proof of concept module extends Continia Document Capture to prevent users accessing documents marked as restricted.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./res/images/logo.png",
+  "dependencies": [
+    {
+      "id": "4b915d7e-c02a-435f-85ab-649086c1e002",
+      "name": "Continia Core",
+      "publisher": "Continia Software",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "6da8dd2f-e698-461f-9147-8e404244dd85",
+      "name": "Continia Document Capture",
+      "publisher": "Continia Software",
+      "version": "24.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 63040,
+      "to": 63049
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
